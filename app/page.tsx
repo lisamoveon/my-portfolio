@@ -1,8 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-const basePath = process.env.NODE_ENV === "production" ? "/YOUR_REPO_NAME" : "";
-
+const basePath = process.env.NODE_ENV === "production" ? "/lisamoveon" : "";
 export default function Home() {
   return (
     <div className="min-h-screen bg-[#050510] text-cyan-50 font-mono selection:bg-fuchsia-500/30 selection:text-fuchsia-200 overflow-x-hidden">
